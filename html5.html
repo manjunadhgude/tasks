@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <form><table border="1" align="center" style="width:50%">
+        <tr>
+            <td><label for="fname"><b>Firstname</b></label></td>
+            <td><input type="text" id="fname" name="fname" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="lname"><b>Lastname</b></label></td>
+            <td><input type="text" id="lname" name="lname" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="email"><b>Email</b></label></td>
+            <td><input type="text" id="email" name="email" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="password"> <b>Password</b> </label></td>
+            <td><input type="password" id="password" name="password" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="password"> <b>Re-enter password</b> </label></td>
+            <td><input type="password" id="password" name="password" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="gender"><b>Gender</b></label></td>
+            <td><input type="radio" name="gender">Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td><label for="age"><b>Age</b> </label></td>
+            <td><input type="number" id="age" name="age" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="phno"> <b>Phone Number</b> </label></td>
+            <td><input type="tel" id="phno" name="phno" style="box-sizing: border-box; height: 100%; width: 100%;"></td>
+        </tr>
+        <tr>
+            <td><label for="add"> <b>Address</b> </label></td>
+            <td><textarea name="add" id="add" style="box-sizing: border-box; height: 100%; width: 100%;"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="state"> <b>State</b> </label></td>
+            <td><input type="text" name="state" id="state" style="box-sizing: border-box; height: 100%; width: 100%;"></input></td>
+        </tr>
+        <tr>
+            <td><label for="country"> <b>Country</b> </label></td>
+            <td><select name="country" id="country">
+            <option value="placeholder">Choose your Country</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Nepal">Nepal</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><b>Languages Known</b></td>
+            <td><input type="checkbox">English
+                <input type="checkbox">Kannada
+                <input type="checkbox">Hindi
+                <input type="checkbox">Telugu</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" name="decl" id="decl">Hereby declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2"><p style="text-align: right;">Login to <a href="https://ethnus.com/">Ethnus </a>website</p></td>
+        </tr>
+    </table>
+    <p class="button-container" style="text-align: center;">
+    <button type="submit">Register</button></p>
+    </form>
+    
+</body>
+</html>
